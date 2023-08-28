@@ -1,0 +1,1120 @@
+fileFormatVersion: 2
+guid: 789fe1d5cfc63b145af6fb20ac6910a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farm objects free_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 3}
+        - {x: 16, y: 4}
+        - {x: 16, y: 6}
+        - {x: 14, y: 8}
+        - {x: 15, y: 9}
+        - {x: 15, y: 11}
+        - {x: 13, y: 13}
+        - {x: 10, y: 13}
+        - {x: 7, y: 16}
+        - {x: -10, y: 16}
+        - {x: -11, y: 15}
+        - {x: -11, y: 12}
+        - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 15, y: 1}
+      physicsShape:
+      - - {x: 15.223351, y: -4.459976}
+        - {x: -14.847321, y: -3.9675903}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd91eb01164e09d448cbd21e13b03926
+      internalID: -1779825401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 131
+        width: 35
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: -24}
+        - {x: 7.5, y: -21}
+        - {x: 6.5, y: -19}
+        - {x: 4.5, y: -18}
+        - {x: 4.5, y: -16}
+        - {x: 5.5, y: -15}
+        - {x: 6.5, y: -11}
+        - {x: 8.5, y: -10}
+        - {x: 11.5, y: -8}
+        - {x: 13.5, y: -8}
+        - {x: 17.5, y: -4}
+        - {x: 17.5, y: 15}
+        - {x: 16.5, y: 16}
+        - {x: 17.5, y: 17}
+        - {x: 17.5, y: 20}
+        - {x: 16.5, y: 23}
+        - {x: 13.5, y: 25}
+        - {x: 13.5, y: 26}
+        - {x: 10.5, y: 30}
+        - {x: -10.5, y: 30}
+        - {x: -13.5, y: 28}
+        - {x: -15.5, y: 19}
+        - {x: -17.5, y: 17}
+        - {x: -17.5, y: -1}
+        - {x: -16.5, y: -2}
+        - {x: -16.5, y: -5}
+        - {x: -12.5, y: -9}
+        - {x: -8.5, y: -9}
+        - {x: -7.5, y: -15}
+        - {x: -8.5, y: -16}
+        - {x: -8.5, y: -19}
+        - {x: -9.5, y: -19}
+        - {x: -11.5, y: -22}
+        - {x: -13.5, y: -22}
+        - {x: -15.5, y: -23}
+        - {x: -16.5, y: -26}
+        - {x: -16.5, y: -29}
+        - {x: -15.5, y: -30}
+        - {x: 11.5, y: -30}
+        - {x: 12.5, y: -29}
+        - {x: 12.5, y: -26}
+        - {x: 10.5, y: -24}
+      physicsShape:
+      - - {x: -5.3969116, y: -21.54393}
+        - {x: -10.635494, y: -29.711838}
+        - {x: 5.6183167, y: -30}
+        - {x: 1.3625565, y: -21.763367}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab22e4e692c3c4fb10a6cf539ff7d9
+      internalID: 895882584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 131
+        width: 35
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: -24}
+        - {x: 7.5, y: -21}
+        - {x: 6.5, y: -19}
+        - {x: 4.5, y: -18}
+        - {x: 4.5, y: -16}
+        - {x: 5.5, y: -15}
+        - {x: 6.5, y: -11}
+        - {x: 8.5, y: -10}
+        - {x: 11.5, y: -8}
+        - {x: 13.5, y: -8}
+        - {x: 17.5, y: -4}
+        - {x: 17.5, y: 15}
+        - {x: 16.5, y: 16}
+        - {x: 17.5, y: 17}
+        - {x: 17.5, y: 20}
+        - {x: 16.5, y: 23}
+        - {x: 13.5, y: 25}
+        - {x: 13.5, y: 26}
+        - {x: 10.5, y: 30}
+        - {x: -10.5, y: 30}
+        - {x: -13.5, y: 28}
+        - {x: -15.5, y: 19}
+        - {x: -17.5, y: 17}
+        - {x: -17.5, y: -1}
+        - {x: -16.5, y: -2}
+        - {x: -16.5, y: -5}
+        - {x: -12.5, y: -9}
+        - {x: -8.5, y: -9}
+        - {x: -7.5, y: -15}
+        - {x: -8.5, y: -16}
+        - {x: -8.5, y: -19}
+        - {x: -9.5, y: -19}
+        - {x: -11.5, y: -22}
+        - {x: -13.5, y: -22}
+        - {x: -15.5, y: -23}
+        - {x: -16.5, y: -26}
+        - {x: -16.5, y: -29}
+        - {x: -15.5, y: -30}
+        - {x: 11.5, y: -30}
+        - {x: 12.5, y: -29}
+        - {x: 12.5, y: -26}
+        - {x: 10.5, y: -24}
+      physicsShape:
+      - - {x: -10.347328, y: -29.711838}
+        - {x: 6.7709885, y: -30}
+        - {x: 2.8033905, y: -22.916046}
+        - {x: -7.7061768, y: -22.734879}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec4cfd9adc52a0439d8b5ce9d4ebf15
+      internalID: -628187058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 84
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -24}
+        - {x: 34, y: -19}
+        - {x: 35, y: -19}
+        - {x: 37, y: -17}
+        - {x: 39, y: -17}
+        - {x: 42, y: -14}
+        - {x: 42, y: 17}
+        - {x: 37, y: 22}
+        - {x: 37, y: 24}
+        - {x: 33, y: 28}
+        - {x: 34, y: 29}
+        - {x: 34, y: 35}
+        - {x: 30, y: 39}
+        - {x: 20, y: 39}
+        - {x: 18, y: 37}
+        - {x: 17, y: 39}
+        - {x: 14, y: 42}
+        - {x: 7, y: 45}
+        - {x: 5, y: 46}
+        - {x: -4, y: 46}
+        - {x: -6, y: 45}
+        - {x: -13, y: 42}
+        - {x: -18, y: 36}
+        - {x: -22, y: 35}
+        - {x: -29, y: 29}
+        - {x: -32, y: 28}
+        - {x: -36, y: 23}
+        - {x: -36, y: 22}
+        - {x: -42, y: 16}
+        - {x: -42, y: 11}
+        - {x: -41, y: 10}
+        - {x: -42, y: 9}
+        - {x: -42, y: 4}
+        - {x: -41, y: 3}
+        - {x: -42, y: 2}
+        - {x: -42, y: -5}
+        - {x: -41, y: -6}
+        - {x: -42, y: -8}
+        - {x: -42, y: -13}
+        - {x: -38, y: -17}
+        - {x: -36, y: -17}
+        - {x: -33, y: -19}
+        - {x: -33, y: -23}
+        - {x: -32, y: -24}
+        - {x: -32, y: -37}
+        - {x: -31, y: -38}
+        - {x: -31, y: -46}
+        - {x: 32, y: -46}
+        - {x: 32, y: -38}
+        - {x: 33, y: -37}
+        - {x: 33, y: -25}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: f4042aad5ce5ba240824fad11b148fbf
+      internalID: -1529795065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 115
+        width: 25
+        height: 12
+      alignment: 9
+      pivot: {x: 0.48, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 6}
+        - {x: -12.5, y: 5}
+        - {x: -12.5, y: -6}
+        - {x: 12.5, y: -6}
+        - {x: 12.5, y: 3}
+        - {x: 11.5, y: 6}
+      physicsShape:
+      - - {x: -7.5, y: 6}
+        - {x: -9.5, y: 0}
+        - {x: -9.5, y: -6}
+        - {x: 9.5, y: -6}
+        - {x: 9.5, y: -2}
+        - {x: 7.5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a559c13b1b5a656488b0366e875e610e
+      internalID: -1056672645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 13.5}
+        - {x: -10.5, y: 13.5}
+        - {x: -10.5, y: -13.5}
+        - {x: 10.5, y: -13.5}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 638f99f89284b834cb934a85b6b7b59f
+      internalID: 535144768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: -14}
+        - {x: 9.5, y: -14}
+        - {x: 10.5, y: -13}
+        - {x: 10.5, y: 14}
+        - {x: -10.5, y: 14}
+        - {x: -10.5, y: -14}
+        - {x: -3.5, y: -14}
+        - {x: -2.5, y: -13}
+        - {x: -2.5, y: -11}
+        - {x: 5.5, y: -11}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 2094467e1c5997f499db761ad0ff68fa
+      internalID: -2141206205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 4, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 84b7f22542e05a34792093f1b0cf370f
+      internalID: -1794086268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 8}
+        - {x: -2, y: 7}
+        - {x: -2, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -2, y: 7}
+        - {x: -2, y: -6}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c02c68019c5845ac1a666a22e1ccb
+      internalID: 1659361966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 175
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+        - {x: -8, y: 8}
+      physicsShape:
+      - - {x: -8, y: -7}
+        - {x: -4, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d442f1ede27dbcd4498145ffd2738b36
+      internalID: 1139605742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -8}
+        - {x: 2, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 2, y: -7}
+        - {x: 2, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 1
+      bones: []
+      spriteID: fd3216be00cb98d43b4fe7c2fc3c3d6f
+      internalID: -768727941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 2, y: -7}
+        - {x: 2, y: 7}
+        - {x: 1, y: 8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 2, y: -6}
+        - {x: 2, y: 7}
+        - {x: 1, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2712afe49788c14a979913f99f7c126
+      internalID: 1304394701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 159
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 8}
+        - {x: -2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape:
+      - - {x: -1, y: 8}
+        - {x: -2, y: 7}
+        - {x: -2, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f36c7db35b5d648824e10c08a3b5bd
+      internalID: 1363146937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecf7b7d40631094eb017d61acd07bc4
+      internalID: 1053106598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -7}
+        - {x: -5, y: -7}
+        - {x: -4, y: -8}
+        - {x: 4, y: -8}
+        - {x: 5, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 8}
+      tessellationDetail: 0.42
+      bones: []
+      spriteID: 06f979a3c6706494ba8e88d8fbb92930
+      internalID: -1446681740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape:
+      - - {x: -8, y: -7}
+        - {x: -3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+        - {x: -8, y: 8}
+      tessellationDetail: 1
+      bones: []
+      spriteID: c1b5af34bb1629041a2b1c64db61ac41
+      internalID: -1003931137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+        - {x: -8, y: 8}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 4447fc8f9e2f56d448c6f1f05e71b7e5
+      internalID: -475308612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 127
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce41de157390aa14dbd18d531b531405
+      internalID: 1873544827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 113
+        width: 16
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 7}
+        - {x: -8, y: 5}
+        - {x: -8, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 7}
+      physicsShape:
+      - - {x: -6, y: 7}
+        - {x: -8, y: 5}
+        - {x: -8, y: -7}
+        - {x: 8, y: -7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 695a0ecdc57c1424db3f57aadf3d56d5
+      internalID: 2075995974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 6}
+        - {x: -5, y: 6}
+        - {x: -8, y: 3}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 3}
+      physicsShape:
+      - - {x: -5, y: 6}
+        - {x: -8, y: 3}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 3}
+        - {x: 5, y: 6}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 22bcfbc15f1c8c94fa627f6bf0b8e54e
+      internalID: -2072804045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -1}
+        - {x: 1, y: 4}
+        - {x: -1, y: 4}
+        - {x: -4, y: 2}
+        - {x: -8, y: -2}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -2}
+        - {x: 7, y: -1}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 097de921e0d44744588572a9422e4459
+      internalID: 2032789955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -1}
+        - {x: 7, y: 0}
+        - {x: 8, y: 1}
+        - {x: 8, y: 3}
+        - {x: 4, y: 7}
+        - {x: 0, y: 6}
+        - {x: -2, y: 8}
+        - {x: -5, y: 8}
+        - {x: -8, y: 5}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -7}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 46ed90ee22bf08a4fbdd1214b9e1ea63
+      internalID: -578549994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 16
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -7}
+        - {x: -3, y: 7}
+        - {x: -8, y: 7}
+        - {x: -8, y: -7}
+      physicsShape:
+      - - {x: -3, y: -7}
+        - {x: -3, y: 7}
+        - {x: -8, y: 7}
+        - {x: -8, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: d2c0c780a8f755f4ea05c8f4c0380b9e
+      internalID: -2064152263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 8}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 6}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8843fb672abaf3e4497ed681931afd81
+      internalID: -1419493273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 8}
+        - {x: -8, y: 4}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 6}
+        - {x: 6, y: 8}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 49301a8cb5e5c684dba69fdd4ae1ea91
+      internalID: -1842781902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 95
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 8}
+        - {x: -2, y: 8}
+        - {x: -3, y: 7}
+        - {x: -6, y: 7}
+        - {x: -8, y: 5}
+        - {x: -8, y: -7}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 8, y: -7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 7}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: df0c344d00fc7434d8cc9e42331ea8bf
+      internalID: 1627752155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm objects free_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 8}
+        - {x: -2, y: 7}
+        - {x: -2, y: -7}
+        - {x: -1, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed38f08e1c3bf304badddc7349d608df
+      internalID: -1076508252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      farm objects free_0: -1779825401
+      farm objects free_1: 895882584
+      farm objects free_10: -768727941
+      farm objects free_11: 1304394701
+      farm objects free_12: 1363146937
+      farm objects free_13: 1053106598
+      farm objects free_14: -1446681740
+      farm objects free_15: -1003931137
+      farm objects free_16: -475308612
+      farm objects free_17: 1873544827
+      farm objects free_18: -684743555
+      farm objects free_19: 2075995974
+      farm objects free_2: -628187058
+      farm objects free_20: -2072804045
+      farm objects free_21: 2032789955
+      farm objects free_22: -578549994
+      farm objects free_23: -2064152263
+      farm objects free_24: -1419493273
+      farm objects free_25: -1842781902
+      farm objects free_26: 1627752155
+      farm objects free_27: 772712904
+      farm objects free_28: 656764587
+      farm objects free_29: 1319903820
+      farm objects free_3: -1529795065
+      farm objects free_30: 1344430345
+      farm objects free_31: -49050927
+      farm objects free_32: 1322758571
+      farm objects free_33: -1985685583
+      farm objects free_34: 91468530
+      farm objects free_35: -94034305
+      farm objects free_36: -1129886949
+      farm objects free_37: -1076508252
+      farm objects free_4: -1056672645
+      farm objects free_5: 535144768
+      farm objects free_6: -2141206205
+      farm objects free_7: -1794086268
+      farm objects free_8: 1659361966
+      farm objects free_9: 1139605742
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
