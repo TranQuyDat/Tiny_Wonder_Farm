@@ -16,6 +16,7 @@ public class playerController : MonoBehaviour
 
     private void Start()
     {
+        transform.position = sceneInfo.posSpawnPlayer;
         gameManager = FindObjectOfType<GameManager>();
     }
     private void Update()
@@ -26,25 +27,15 @@ public class playerController : MonoBehaviour
 
         animator.SetBool("isrun", (movement.x != 0 || movement.y != 0) ? true : false);
 
-        changeScene();
-
+        
 
     }
     private void FixedUpdate()
     {
-        
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
         Flip();
     }
 
-    public void changeScene()
-    {
-        if (sceneInfo.isactive)
-        {
-            this.transform.position = sceneInfo.pos_spawn;
-            sceneInfo.isactive = false;
-        }
-    }
     public void Flip()
     {
         player.transform.localScale = new Vector3(

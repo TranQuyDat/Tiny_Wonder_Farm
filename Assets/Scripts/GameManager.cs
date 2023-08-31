@@ -6,16 +6,18 @@ public class GameManager : MonoBehaviour
 {
     InteractiveObj interactiveObj;
 
-
-
     void Start()
     {
         interactiveObj = FindObjectOfType<InteractiveObj>();
     }
+    private void Update()
+    {
 
+    }
     public InteractiveObj getInteractiveObj()
     {
         return interactiveObj;
+       
     }
 
 

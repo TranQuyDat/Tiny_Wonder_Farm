@@ -5,9 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="sceneinfo",menuName = "sceneinfo")]
 public class SceneInfo : ScriptableObject
 {
-    public bool isactive ;
+    public bool isactive = false ;
     public string nameScene;
-    public Vector3 pos_spawn;
-
-
+    public Vector2 posSpawnPlayer;
 }

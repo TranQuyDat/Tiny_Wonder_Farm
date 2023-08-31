@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af91e5326768d344c955fa1b1c958277, type: 3}
   m_Name: sceneinfo
   m_EditorClassIdentifier: 
-  isactive: 0
+  isactive: 1
+  nameScene: inhouseScene
+  posSpawnPlayer: {x: 0.6, y: -1.7}
