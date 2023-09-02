@@ -3617,6 +3617,72 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1716810069
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.5618443
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.17985088
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06266384
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388107999540023608, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128410842876583529, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+      propertyPath: m_Name
+      value: changeSceneEffect
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+--- !u!95 &1716810070 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 267859699732665023, guid: f5816dc7dc0053149b3fbd5990d1acfa, type: 3}
+  m_PrefabInstance: {fileID: 1716810069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1849437696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,6 +3694,7 @@ GameObject:
   - component: {fileID: 1849437699}
   - component: {fileID: 1849437698}
   - component: {fileID: 1849437697}
+  - component: {fileID: 1849437700}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3709,6 +3776,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1849437700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849437696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7603ab59295fab04dab93f1d4bd98aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedfollow: 3
+  taget: {fileID: 1867614022}
 --- !u!1 &1861954736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,6 +3932,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2100898865fa3bb4aa723c8dc15dd347, type: 3}
+--- !u!1 &1867614022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7465928735934970921, guid: 2100898865fa3bb4aa723c8dc15dd347, type: 3}
+  m_PrefabInstance: {fileID: 1867614021}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1910039298
 GameObject:
   m_ObjectHideFlags: 0
@@ -6913,8 +6999,9 @@ MonoBehaviour:
   enableButton: 1
   isEnter: 1
   loadScene: farmScene
-  delayTime: 0
-  posSpawnPlayer: {x: 0.6, y: -1.7}
+  delayTime: 1
+  posSpawnPlayer: {x: 6.5, y: 1}
+  animator_changeScene: {fileID: 1716810070}
   sceneInfo: {fileID: 11400000, guid: b21f755b59d8b8d4d824f2a8e255021b, type: 2}
 --- !u!61 &6288275068436881707
 BoxCollider2D:

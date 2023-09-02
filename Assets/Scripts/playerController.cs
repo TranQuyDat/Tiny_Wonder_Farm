@@ -16,20 +16,20 @@ public class playerController : MonoBehaviour
 
     private void Start()
     {
-        transform.position = sceneInfo.posSpawnPlayer;
         gameManager = FindObjectOfType<GameManager>();
+        transform.position = sceneInfo.posSpawnPlayer;
+
     }
     private void Update()
     {
         
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
+        sceneInfo.posSpawnPlayer = transform.position;
         animator.SetBool("isrun", (movement.x != 0 || movement.y != 0) ? true : false);
 
-        
-
     }
+
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
@@ -47,11 +47,12 @@ public class playerController : MonoBehaviour
 
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
+    {       
         if (collision.tag == "interactiveObj")
         {
             icon.SetActive(true);
         }
+        if (collision.CompareTag("water")) Debug.Log("water!");
     }
 
 

@@ -6,20 +6,16 @@ using UnityEngine.SceneManagement;
 public class EnterScene : MonoBehaviour
 {
     public bool enableButton;
-    public bool isEnter = true;
+    public bool isEnter = false;
     public string loadScene;
-    public float delayTime;
+    public float delayTime = 1f;
     public Vector2 posSpawnPlayer;
-    
+    public Animator animator_changeScene;
+
+    private playerController player;
     [SerializeField] private SceneInfo sceneInfo;
-    private void Awake()
-    {
-        sceneInfo.posSpawnPlayer = this.transform.position;
-    }
-    private void Start()
-    {
-        
-    }
+
+
     private void Update()
     {
         LoadScene();
@@ -30,21 +26,22 @@ public class EnterScene : MonoBehaviour
         if (!sceneInfo.isactive) return;
         if (enableButton && Input.GetKeyDown(KeyCode.E))
         {
-            sceneInfo.isactive = true;
             StartCoroutine(IE_waitScene());
+            
         }
         else if(!enableButton )
         {
-            sceneInfo.isactive = true;
             StartCoroutine(IE_waitScene());
         }
         
     }
     IEnumerator IE_waitScene()
     {
+        animator_changeScene.SetTrigger("start");
         yield return new WaitForSeconds(delayTime);
+        sceneInfo.posSpawnPlayer = posSpawnPlayer;  
         SceneManager.LoadScene(loadScene);
-        sceneInfo.isactive = false;
+        
     }
    private void OnTriggerStay2D(Collider2D collision)
     {

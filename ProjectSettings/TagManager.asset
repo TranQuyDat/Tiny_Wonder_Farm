@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - interactiveObj
+  - water
   layers:
   - Default
   - TransparentFX
@@ -56,4 +57,7 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 1858703757
+    locked: 0
+  - name: changeScene
+    uniqueID: 828237977
     locked: 0
